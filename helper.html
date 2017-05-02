@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stem Day 2017!</title>
+    <style>
+        #letterDisplay, #tieBreakDisplay {
+            color: Blue;
+            font-size: xx-large;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stem Day Helper Picker</h1>
+
+    <div>
+        <button onclick="pickLetter()">Pick a Letter</button>
+        <span id="letterDisplay"></span>
+    </div>
+
+    <div>
+        <button onclick="breakTie()">Break Tie</button>
+        <input id="numStudents" type="number"></input>
+        <span id="tieBreakDisplay"></span>
+    </div>
+
+    <script src="helper.js"></script>
+</body>
+</html>
